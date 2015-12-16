@@ -12,6 +12,12 @@
 		D89831411C20C676005001C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89831401C20C676005001C3 /* Assets.xcassets */; };
 		D89831441C20C676005001C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89831421C20C676005001C3 /* LaunchScreen.storyboard */; };
 		D898314C1C20C950005001C3 /* SamplesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898314B1C20C950005001C3 /* SamplesTableViewController.swift */; };
+		D898314E1C20CB6C005001C3 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898314D1C20CB6C005001C3 /* Sample.swift */; };
+		D89831501C20CC1B005001C3 /* SampleLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898314F1C20CC1B005001C3 /* SampleLibrary.swift */; };
+		D89831521C20CCC5005001C3 /* SamplesTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89831511C20CCC5005001C3 /* SamplesTableViewDataSource.swift */; };
+		D89831541C20CED5005001C3 /* SamplesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89831531C20CED5005001C3 /* SamplesTableViewCell.swift */; };
+		D89831561C20D080005001C3 /* SamplesTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89831551C20D080005001C3 /* SamplesTableViewDelegate.swift */; };
+		D8B42C8B1C214B9000A958C1 /* SamplesColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B42C8A1C214B9000A958C1 /* SamplesColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		D89831431C20C676005001C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D89831451C20C676005001C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D898314B1C20C950005001C3 /* SamplesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplesTableViewController.swift; sourceTree = "<group>"; };
+		D898314D1C20CB6C005001C3 /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		D898314F1C20CC1B005001C3 /* SampleLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleLibrary.swift; sourceTree = "<group>"; };
+		D89831511C20CCC5005001C3 /* SamplesTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplesTableViewDataSource.swift; sourceTree = "<group>"; };
+		D89831531C20CED5005001C3 /* SamplesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplesTableViewCell.swift; sourceTree = "<group>"; };
+		D89831551C20D080005001C3 /* SamplesTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplesTableViewDelegate.swift; sourceTree = "<group>"; };
+		D8B42C8A1C214B9000A958C1 /* SamplesColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplesColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,12 @@
 			children = (
 				D89831371C20C676005001C3 /* AppDelegate.swift */,
 				D898314B1C20C950005001C3 /* SamplesTableViewController.swift */,
+				D89831511C20CCC5005001C3 /* SamplesTableViewDataSource.swift */,
+				D89831551C20D080005001C3 /* SamplesTableViewDelegate.swift */,
+				D89831531C20CED5005001C3 /* SamplesTableViewCell.swift */,
+				D898314D1C20CB6C005001C3 /* Sample.swift */,
+				D898314F1C20CC1B005001C3 /* SampleLibrary.swift */,
+				D8B42C8A1C214B9000A958C1 /* SamplesColors.swift */,
 				D89831401C20C676005001C3 /* Assets.xcassets */,
 				D89831421C20C676005001C3 /* LaunchScreen.storyboard */,
 				D89831451C20C676005001C3 /* Info.plist */,
@@ -207,7 +225,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D898314C1C20C950005001C3 /* SamplesTableViewController.swift in Sources */,
+				D89831501C20CC1B005001C3 /* SampleLibrary.swift in Sources */,
 				D89831381C20C676005001C3 /* AppDelegate.swift in Sources */,
+				D898314E1C20CB6C005001C3 /* Sample.swift in Sources */,
+				D89831561C20D080005001C3 /* SamplesTableViewDelegate.swift in Sources */,
+				D8B42C8B1C214B9000A958C1 /* SamplesColors.swift in Sources */,
+				D89831521C20CCC5005001C3 /* SamplesTableViewDataSource.swift in Sources */,
+				D89831541C20CED5005001C3 /* SamplesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
