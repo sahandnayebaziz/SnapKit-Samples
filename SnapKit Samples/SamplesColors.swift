@@ -16,4 +16,8 @@ struct SamplesColors {
     static var lightBlue: UIColor {
         return createColorFromRGB(20, g: 170, b: 239)
     }
+    
+    static var orange: UIColor {
+        return createColorFromRGB(255, g: 50, b: 2)
+    }
 }

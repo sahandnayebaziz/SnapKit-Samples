@@ -11,5 +11,5 @@ import Foundation
 struct Sample {
     var name: String
     var description: String
-    var view: AnyClass
+    var viewController: AnyClass
 }

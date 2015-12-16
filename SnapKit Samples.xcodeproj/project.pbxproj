@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0E3B4C1743D473F775049F34 /* Pods_SnapKit_Samples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858215764442AE6B78120472 /* Pods_SnapKit_Samples.framework */; };
+		D86A5DA81C21D2AB0014E2D7 /* CenteringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A5DA71C21D2AB0014E2D7 /* CenteringViewController.swift */; };
+		D86A5DAA1C21D4200014E2D7 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A5DA91C21D4200014E2D7 /* SampleViewController.swift */; };
+		D86A5DAC1C21D9BD0014E2D7 /* NestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A5DAB1C21D9BD0014E2D7 /* NestingViewController.swift */; };
 		D89831381C20C676005001C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89831371C20C676005001C3 /* AppDelegate.swift */; };
 		D89831411C20C676005001C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89831401C20C676005001C3 /* Assets.xcassets */; };
 		D89831441C20C676005001C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89831421C20C676005001C3 /* LaunchScreen.storyboard */; };
@@ -16,7 +19,6 @@
 		D89831501C20CC1B005001C3 /* SampleLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898314F1C20CC1B005001C3 /* SampleLibrary.swift */; };
 		D89831521C20CCC5005001C3 /* SamplesTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89831511C20CCC5005001C3 /* SamplesTableViewDataSource.swift */; };
 		D89831541C20CED5005001C3 /* SamplesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89831531C20CED5005001C3 /* SamplesTableViewCell.swift */; };
-		D89831561C20D080005001C3 /* SamplesTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89831551C20D080005001C3 /* SamplesTableViewDelegate.swift */; };
 		D8B42C8B1C214B9000A958C1 /* SamplesColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B42C8A1C214B9000A958C1 /* SamplesColors.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,9 @@
 		858215764442AE6B78120472 /* Pods_SnapKit_Samples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapKit_Samples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F5EFC6C6761ADFC51334CC /* Pods-SnapKit Samples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKit Samples.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapKit Samples/Pods-SnapKit Samples.release.xcconfig"; sourceTree = "<group>"; };
 		C13AB9E9BC57C1FEEE21D7AD /* Pods-SnapKit Samples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKit Samples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapKit Samples/Pods-SnapKit Samples.debug.xcconfig"; sourceTree = "<group>"; };
+		D86A5DA71C21D2AB0014E2D7 /* CenteringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenteringViewController.swift; sourceTree = "<group>"; };
+		D86A5DA91C21D4200014E2D7 /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		D86A5DAB1C21D9BD0014E2D7 /* NestingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestingViewController.swift; sourceTree = "<group>"; };
 		D89831341C20C676005001C3 /* SnapKit Samples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnapKit Samples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89831371C20C676005001C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D89831401C20C676005001C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,7 +39,6 @@
 		D898314F1C20CC1B005001C3 /* SampleLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleLibrary.swift; sourceTree = "<group>"; };
 		D89831511C20CCC5005001C3 /* SamplesTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplesTableViewDataSource.swift; sourceTree = "<group>"; };
 		D89831531C20CED5005001C3 /* SamplesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplesTableViewCell.swift; sourceTree = "<group>"; };
-		D89831551C20D080005001C3 /* SamplesTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplesTableViewDelegate.swift; sourceTree = "<group>"; };
 		D8B42C8A1C214B9000A958C1 /* SamplesColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplesColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +71,63 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D86A5D9F1C21CFB90014E2D7 /* Configuration Families */ = {
+			isa = PBXGroup;
+			children = (
+				D898314D1C20CB6C005001C3 /* Sample.swift */,
+				D898314F1C20CC1B005001C3 /* SampleLibrary.swift */,
+				D8B42C8A1C214B9000A958C1 /* SamplesColors.swift */,
+			);
+			name = "Configuration Families";
+			sourceTree = "<group>";
+		};
+		D86A5DA01C21CFBF0014E2D7 /* Samples Table View */ = {
+			isa = PBXGroup;
+			children = (
+				D898314B1C20C950005001C3 /* SamplesTableViewController.swift */,
+				D89831511C20CCC5005001C3 /* SamplesTableViewDataSource.swift */,
+				D89831531C20CED5005001C3 /* SamplesTableViewCell.swift */,
+			);
+			name = "Samples Table View";
+			sourceTree = "<group>";
+		};
+		D86A5DA11C21CFC60014E2D7 /* View Families */ = {
+			isa = PBXGroup;
+			children = (
+				D86A5DA01C21CFBF0014E2D7 /* Samples Table View */,
+				D86A5DA61C21D02A0014E2D7 /* Sample Views */,
+			);
+			name = "View Families";
+			sourceTree = "<group>";
+		};
+		D86A5DA21C21CFEE0014E2D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D89831371C20C676005001C3 /* AppDelegate.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D86A5DA31C21CFF50014E2D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D89831401C20C676005001C3 /* Assets.xcassets */,
+				D89831421C20C676005001C3 /* LaunchScreen.storyboard */,
+				D89831451C20C676005001C3 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D86A5DA61C21D02A0014E2D7 /* Sample Views */ = {
+			isa = PBXGroup;
+			children = (
+				D86A5DA91C21D4200014E2D7 /* SampleViewController.swift */,
+				D86A5DA71C21D2AB0014E2D7 /* CenteringViewController.swift */,
+				D86A5DAB1C21D9BD0014E2D7 /* NestingViewController.swift */,
+			);
+			name = "Sample Views";
+			sourceTree = "<group>";
+		};
 		D898312B1C20C675005001C3 = {
 			isa = PBXGroup;
 			children = (
@@ -88,17 +149,10 @@
 		D89831361C20C676005001C3 /* SnapKit Samples */ = {
 			isa = PBXGroup;
 			children = (
-				D89831371C20C676005001C3 /* AppDelegate.swift */,
-				D898314B1C20C950005001C3 /* SamplesTableViewController.swift */,
-				D89831511C20CCC5005001C3 /* SamplesTableViewDataSource.swift */,
-				D89831551C20D080005001C3 /* SamplesTableViewDelegate.swift */,
-				D89831531C20CED5005001C3 /* SamplesTableViewCell.swift */,
-				D898314D1C20CB6C005001C3 /* Sample.swift */,
-				D898314F1C20CC1B005001C3 /* SampleLibrary.swift */,
-				D8B42C8A1C214B9000A958C1 /* SamplesColors.swift */,
-				D89831401C20C676005001C3 /* Assets.xcassets */,
-				D89831421C20C676005001C3 /* LaunchScreen.storyboard */,
-				D89831451C20C676005001C3 /* Info.plist */,
+				D86A5DA11C21CFC60014E2D7 /* View Families */,
+				D86A5DA21C21CFEE0014E2D7 /* Controllers */,
+				D86A5D9F1C21CFB90014E2D7 /* Configuration Families */,
+				D86A5DA31C21CFF50014E2D7 /* Resources */,
 			);
 			path = "SnapKit Samples";
 			sourceTree = "<group>";
@@ -227,11 +281,13 @@
 				D898314C1C20C950005001C3 /* SamplesTableViewController.swift in Sources */,
 				D89831501C20CC1B005001C3 /* SampleLibrary.swift in Sources */,
 				D89831381C20C676005001C3 /* AppDelegate.swift in Sources */,
+				D86A5DAC1C21D9BD0014E2D7 /* NestingViewController.swift in Sources */,
 				D898314E1C20CB6C005001C3 /* Sample.swift in Sources */,
-				D89831561C20D080005001C3 /* SamplesTableViewDelegate.swift in Sources */,
 				D8B42C8B1C214B9000A958C1 /* SamplesColors.swift in Sources */,
 				D89831521C20CCC5005001C3 /* SamplesTableViewDataSource.swift in Sources */,
 				D89831541C20CED5005001C3 /* SamplesTableViewCell.swift in Sources */,
+				D86A5DA81C21D2AB0014E2D7 /* CenteringViewController.swift in Sources */,
+				D86A5DAA1C21D4200014E2D7 /* SampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
